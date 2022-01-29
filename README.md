@@ -6,6 +6,10 @@ When there's a new Joe Rogan Podcast available on Spotify, your browser will aut
 <h2>Story behind the tool</h2>
 I wanted to teach my friend how to program, and told him I would make a program and have him watch/explain what I was doing. He said he wanted a Joe Rogan Podcast Alert done in Bashscript. This is that script from our live video call.
 
+<h2>Installation</h2>
+>>git clone https://github.com/n3onhacks/joeroganalert.git<p>
+>>chmod 777 -R joeroganalert
+
 <h2>Usage</h2>
 In the terminal open/create a crontab, type:
 
