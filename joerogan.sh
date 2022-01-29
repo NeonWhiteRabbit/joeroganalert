@@ -2,7 +2,7 @@
 
 curl https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk > test.txt
 
-cat test.txt | sed 's/:/\n/g' | grep -B 100 "open.spotify.com" | grep -B 8 "2022-01" > test1.txt
+cat test.txt | sed 's/:/\n/g' | grep -B 100 "open.spotify.com" | grep -B 8 "2022" > test1.txt
 
 #URL is url.txt
 cat test1.txt | grep "//" | cut -d "\"" -f 1 > url.txt
